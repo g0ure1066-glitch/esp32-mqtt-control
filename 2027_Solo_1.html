@@ -52,16 +52,14 @@ button
 
 function sendOn()
 {
-    fetch("https://esp32-lamp-relay.g0ure1066.workers.dev/?cmd=on");
-
+    fetch("https://2027-solo-1.g0ure1066.workers.dev/?cmd=on");
     document.getElementById("status").innerHTML = "LAMP ON command sent";
 }
 
 
 function sendOff()
 {
-    fetch("https://esp32-lamp-relay.g0ure1066.workers.dev/?cmd=off");
-
+    fetch("https://2027-solo-1.g0ure1066.workers.dev/?cmd=off");
     document.getElementById("status").innerHTML = "LAMP OFF command sent";
 }
 
